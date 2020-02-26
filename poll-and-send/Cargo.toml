@@ -1,0 +1,12 @@
+[package]
+name = "poll-and-send"
+version = "0.1.0"
+authors = ["bjornrho <bjornrho@ntnu.no>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+network-rust = { git = "https://github.com/stemnic/network-rust.git" }
+elevator-driver = { git = "https://github.com/stemnic/elevator-driver.git"}
+serde = { version = "1.0.104", features = ["derive"] }
